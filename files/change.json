@@ -1,0 +1,18 @@
+{
+  "name": "Eye of Eleriah #4945",
+  "symbol": "EOE",
+  "uri": "https://eye-of-eleriah.s3.us-west-1.amazonaws.com/4944-lock.json",
+  "sellerFeeBasisPoints": 702.7,
+  "creators": [
+    {
+      "address": "3KYRrm18pHpwt4r7trvwoCeUJ4osqKbmTooG4yWeqwm4",
+      "verified": 1,
+      "share": 0
+    },
+    {
+      "address": "GdsgtxH5XP2akDGow3JFvceTxTCgakKm6KoRgVL315f3",
+      "verified": 0,
+      "share": 100
+    }
+  ]
+}

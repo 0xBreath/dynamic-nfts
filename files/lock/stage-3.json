@@ -1,0 +1,45 @@
+[
+  {
+    "eyeMint": "6t1S7TStFsrvnqyHYU6tffH8x1T4zewp2cHaY6EzHqpw",
+    "oldUri": "https://eye-of-eleriah.s3.us-west-1.amazonaws.com/3499-lock.json",
+    "oldMetadata": {
+      "name": "Eye of Eleriah #3500",
+      "symbol": "EOE",
+      "image": "https://eye-of-eleriah.s3.us-west-1.amazonaws.com/6-lock.png",
+      "properties": {
+        "files": [
+          {
+            "uri": "https://eye-of-eleriah.s3.us-west-1.amazonaws.com/6-lock.png",
+            "type": "image/png"
+          }
+        ],
+        "category": "image",
+        "creators": [
+          {
+            "address": "3KYRrm18pHpwt4r7trvwoCeUJ4osqKbmTooG4yWeqwm4",
+            "verfied": 1,
+            "share": 0
+          },
+          {
+            "address": "GdsgtxH5XP2akDGow3JFvceTxTCgakKm6KoRgVL315f3",
+            "verified": 0,
+            "share": 100
+          }
+        ]
+      },
+      "description": "This NFT is a window into Project Eluüne's metaverse, it will transform into facets of our story-universe until you decide to lock it. Once locked it won't transform again. The choice is yours to make: Lock for what you see and lose what potentially comes next. Or give up the current artwork to never have it come out again and wait for the next cycle… A locked Eye will say \"Locked Forever\" in its attributes.",
+      "seller_fee_basis_points": 702.7,
+      "attributes": [
+        { "trait_type": "Transponder Locked?", "value": "Locked Forever" },
+        { "trait_type": "Cycle", "value": "Cycle #3" },
+        {
+          "trait_type": "Domain Trait",
+          "value": "Opyaan, The Unknown Sky-Sea Of Legba"
+        },
+        { "trait_type": "Dormant Trait", "value": "7" },
+        { "trait_type": "Domain Trait", "value": "Fey Havens" }
+      ],
+      "collection": { "name": "Eye of Eleriah", "family": "Project Eluüne" }
+    }
+  }
+]
