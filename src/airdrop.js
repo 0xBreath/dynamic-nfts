@@ -10,9 +10,9 @@ const {PublicKey} = require("@solana/web3.js");
 
 const s3 = new AWS.S3({
     // AKIA6FN7Y64E7Z6VULFB
-    accessKeyId: "AKIA6FN7Y64E436ENLH6",
+    accessKeyId: "<YOUR_AWS_ACCESS_KEY",
     // rOpOCqZRQkxdkLFM2l70eo3s9u0PhkLe5WaaRFpD
-    secretAccessKey: "v7dvQrGg0748lFk5BFQ84JBlH57cikw9VyA+74jH"
+    secretAccessKey: "YOUR_AWS_SECRET_KEY"
 })
 
 const provider = anchor.Provider.local(
@@ -51,8 +51,8 @@ async function airDrop(mint, index, userPK, i) {
     }
 
 
-    const nftPNG = fs.readFileSync('../files/lock-history/stage-1.png')
-    const lockPNG = fs.readFileSync('../files/lock-history/stage-1.png')
+    const nftPNG = fs.readFileSync('../files/lock/stage-1.png')
+    const lockPNG = fs.readFileSync('../files/lock/stage-1.png')
     const nftName = `Eye of Eleriah #${index + 1}`
     const nftUri = `https://eye-of-eleriah.s3.us-west-1.amazonaws.com/0.png`
     const lockUri = `https://eye-of-eleriah.s3.us-west-1.amazonaws.com/1-lock.png`
@@ -83,7 +83,7 @@ async function airDrop(mint, index, userPK, i) {
 }
 
 async function main() {
-    let k = 4949
+    let k = 4970
     for (let [i, user] of users.entries()) {
         console.log('===================================')
         console.log('*** INDEX = ', (i+k))
